@@ -7,7 +7,8 @@ import javax.swing.JOptionPane;
 public class Dialogboks {
     public static void main(String[] args){
         //exercise_1();
-        exercise_2();
+        //exercise_2();
+        //exercise_3();
     }
 
     public static void exercise_1(){
@@ -47,5 +48,19 @@ public class Dialogboks {
         JOptionPane.showMessageDialog(null, "Sum: " + sum
                                                                     + " \nProdukt " + produkt
                                                                     + "\nModul " + modul);
+    }
+
+    public static void exercise_3(){
+        String name;
+        int year = 0;
+        String intString;
+        int years = 0;
+
+        name = JOptionPane.showInputDialog("Skriv inn navn");
+        intString = JOptionPane.showInputDialog("Skriv inn fødselsdato");
+
+        year = Integer.parseInt(intString);
+        years = 2017 - year;
+        JOptionPane.showMessageDialog(null, name + ", du blir "+years);
     }
 }
