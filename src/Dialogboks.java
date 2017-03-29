@@ -11,6 +11,7 @@ public class Dialogboks {
         //exercise_3();
         //exercise_4();
         //exercise_5();
+        exercise_6();
     }
 
     public static void exercise_1(){
@@ -90,5 +91,23 @@ public class Dialogboks {
 
         JOptionPane.showMessageDialog(null, sek + " sekunder er lik "+ sek%60
                 + "  sekunder " + m +" minuter og "+ h +" timer ");
+    }
+    public static void exercise_6(){
+        int i = 0;
+        String intString;
+        boolean n = true;
+        String resultat;
+
+        while(n == true){
+            intString = JOptionPane.showInputDialog("Skriv in helltall");
+            i = Integer.parseInt(intString);
+            if(i%3 == 0 ){
+                resultat = "er delig på 3";
+            }
+            else{
+                resultat = "er ikke delig på 3";
+            }
+            JOptionPane.showMessageDialog(null, "Tall "+ i +" " + resultat);
+        }
     }
 }
