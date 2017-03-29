@@ -55,9 +55,9 @@ public class Dialogboks {
 
     public static void exercise_3(){
         String name;
-        int year = 0;
+        int year;
         String intString;
-        int years = 0;
+        int years;
 
         name = JOptionPane.showInputDialog("Skriv inn navn");
         intString = JOptionPane.showInputDialog("Skriv inn fødselsdato");
@@ -68,7 +68,7 @@ public class Dialogboks {
     }
     public static void exercise_4(){
         String intString;
-        int sek = 0;
+        int sek;
 
         intString = JOptionPane.showInputDialog("Skriv in antall sekunder du lurer på");
         sek = Integer.parseInt(intString);
@@ -77,9 +77,9 @@ public class Dialogboks {
     }
     public static void exercise_5(){
         String intString;
-        int sek = 0;
-        int h = 0;
-        int m = 0;
+        int sek;
+        int h;
+        int m;
 
         intString = JOptionPane.showInputDialog("Skriv in antall sekunder du lurer på");
         sek = Integer.parseInt(intString);
@@ -93,7 +93,7 @@ public class Dialogboks {
                 + "  sekunder " + m +" minuter og "+ h +" timer ");
     }
     public static void exercise_6(){
-        int i = 0;
+        int i;
         String intString;
         boolean n = true;
         String resultat;
@@ -109,5 +109,14 @@ public class Dialogboks {
             }
             JOptionPane.showMessageDialog(null, "Tall "+ i +" " + resultat);
         }
+    }
+    public static void exercise_7(){
+        int pLengde = 0;
+        int pBredde = 0;
+        int hLengde = 0;
+        int hBredde = 0;
+        int pAreal = 0;
+        int hAreal = 0;
+
     }
 }
