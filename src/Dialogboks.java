@@ -9,6 +9,7 @@ public class Dialogboks {
         //exercise_1();
         //exercise_2();
         //exercise_3();
+        //exercise_4();
     }
 
     public static void exercise_1(){
@@ -62,5 +63,14 @@ public class Dialogboks {
         year = Integer.parseInt(intString);
         years = 2017 - year;
         JOptionPane.showMessageDialog(null, name + ", du blir "+years);
+    }
+    public static void exercise_4(){
+        String intString;
+        int sek = 0;
+
+        intString = JOptionPane.showInputDialog("Skriv in antall sekunder du lurer på");
+        sek = Integer.parseInt(intString);
+
+        JOptionPane.showMessageDialog(null, sek + " sekunder er lik "+ sek/60);
     }
 }
