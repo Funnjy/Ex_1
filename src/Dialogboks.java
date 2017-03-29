@@ -10,6 +10,7 @@ public class Dialogboks {
         //exercise_2();
         //exercise_3();
         //exercise_4();
+        //exercise_5();
     }
 
     public static void exercise_1(){
@@ -72,5 +73,22 @@ public class Dialogboks {
         sek = Integer.parseInt(intString);
 
         JOptionPane.showMessageDialog(null, sek + " sekunder er lik "+ sek/60);
+    }
+    public static void exercise_5(){
+        String intString;
+        int sek = 0;
+        int h = 0;
+        int m = 0;
+
+        intString = JOptionPane.showInputDialog("Skriv in antall sekunder du lurer på");
+        sek = Integer.parseInt(intString);
+
+        m = sek/60;
+        h = m/60;
+        m = m%60;
+        h = h%60;
+
+        JOptionPane.showMessageDialog(null, sek + " sekunder er lik "+ sek%60
+                + "  sekunder " + m +" minuter og "+ h +" timer ");
     }
 }
