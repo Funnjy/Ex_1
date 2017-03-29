@@ -8,15 +8,15 @@ public class Dialogboks {
     }
 
     public static void exercise_1(){
-        int number = 0;
-        int number2 = 0;
-        int sum = 0;
+        double number = 0;
+        double number2 = 0;
+        double sum = 0;
         String numberstring;
         numberstring = JOptionPane.showInputDialog("Print number 1");
-        number = Integer.parseInt(numberstring);
+        number = Double.parseDouble(numberstring);
 
         numberstring = JOptionPane.showInputDialog("Print number 1");
-        number2 = Integer.parseInt(numberstring);
+        number2 = Double.parseDouble(numberstring);
 
         sum = number+number2;
         JOptionPane.showMessageDialog(null, "Sum av " + number+" og "+number2+" = "+sum);
