@@ -11,7 +11,8 @@ public class Dialogboks {
         //exercise_3();
         //exercise_4();
         //exercise_5();
-        exercise_6();
+        //exercise_6();
+        exercise_7();
     }
 
     public static void exercise_1(){
@@ -66,6 +67,7 @@ public class Dialogboks {
         years = 2017 - year;
         JOptionPane.showMessageDialog(null, name + ", du blir "+years);
     }
+
     public static void exercise_4(){
         String intString;
         int sek;
@@ -75,6 +77,7 @@ public class Dialogboks {
 
         JOptionPane.showMessageDialog(null, sek + " sekunder er lik "+ sek/60);
     }
+
     public static void exercise_5(){
         String intString;
         int sek;
@@ -92,6 +95,7 @@ public class Dialogboks {
         JOptionPane.showMessageDialog(null, sek + " sekunder er lik "+ sek%60
                 + "  sekunder " + m +" minuter og "+ h +" timer ");
     }
+
     public static void exercise_6(){
         int i;
         String intString;
@@ -110,13 +114,30 @@ public class Dialogboks {
             JOptionPane.showMessageDialog(null, "Tall "+ i +" " + resultat);
         }
     }
+
     public static void exercise_7(){
-        int pLengde = 0;
-        int pBredde = 0;
-        int hLengde = 0;
-        int hBredde = 0;
-        int pAreal = 0;
-        int hAreal = 0;
+        int pLengde, pBredde, hLengde, hBredde, pAreal, hAreal, gressA;
+        int sec = 0;
+        String intInput;
+
+        pLengde = Integer.parseInt(intInput = JOptionPane.showInputDialog("P lengde"));
+        pBredde = Integer.parseInt(intInput = JOptionPane.showInputDialog("P bredde"));
+        hLengde = Integer.parseInt(intInput = JOptionPane.showInputDialog("H lengde"));
+        hBredde = Integer.parseInt(intInput = JOptionPane.showInputDialog("H bredde"));
+
+        if(pLengde > hLengde && pBredde > hBredde){
+            pAreal = pLengde * pBredde;
+            hAreal = hLengde * hBredde;
+            gressA = pAreal - hAreal;
+            int i = gressA;
+            while(i > 0){
+                i -= 0.4;
+                sec ++ ;
+            }
+            sec = sec%60;
+            JOptionPane.showMessageDialog(null, "Plen areal: " + pAreal
+                    + ", Husets areal: " + hAreal + ", Gress areal: " + gressA +", å klippe alt tar: " + sec+ " minuter");
+        }else JOptionPane.showMessageDialog(null, "ALERT! INVALID PARAMETERS!");
 
     }
 }
