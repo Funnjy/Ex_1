@@ -21,3 +21,4 @@ public class Exercise_2 {
         JOptionPane.showMessageDialog(null, "Kursnavn er " + kursnavn);
     }
 }
+
