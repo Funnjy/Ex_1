@@ -35,6 +35,9 @@ public class WorkoutBook {
     }
 
     public void visGroup(){
-        JOptionPane.showMessageDialog(null, "Muscle group is " + musclegroup);
+        JOptionPane.showMessageDialog(null,
+                "Muscle group is: " + get_group() +
+                         "Repetitions: " + get_repetitions() +
+                         "Sets: " + get_sets());
     }
 }

@@ -9,15 +9,18 @@ public class WorkoutBookTest {
         WorkoutBook book = null, book2 = null;
 
         String group = JOptionPane.showInputDialog("Type group you are goig to train: ");
+        String repetitions = JOptionPane.showInputDialog("Amount of repetitions: ");
+        String sets = JOptionPane.showInputDialog("Amount of sets: ");
 
-        book = new WorkoutBook(group);
+
+        book = new WorkoutBook(group, repetitions, sets);
 
         int svar = JOptionPane.showOptionDialog(null,
                 "Create new book?","Create new book?", JOptionPane.YES_NO_OPTION,
                 JOptionPane.QUESTION_MESSAGE, null,null,null);
         if(svar == JOptionPane.YES_OPTION){
             group = JOptionPane.showInputDialog("Write group name:");
-            book2 = new WorkoutBook(group);
+            book2 = new WorkoutBook(group,repetitions, sets);
         }
 
         String info = "Book created:\n";
