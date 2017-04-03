@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c44d938e-16ba-4910-85ce-5403c72915a0" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Konto/src/Konto.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/WorkoutBook/WorkoutBook.class" afterPath="$PROJECT_DIR$/out/production/WorkoutBook/WorkoutBook.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/WorkoutBook/WorkoutBookTest.class" afterPath="$PROJECT_DIR$/out/production/WorkoutBook/WorkoutBookTest.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Konto/Konto.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Konto/src/Konto.java" afterPath="$PROJECT_DIR$/Konto/src/Konto.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -46,9 +45,21 @@
       <file leaf-file-name="Konto.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Konto/src/Konto.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="20" lean-forward="true" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
-              <folding />
+            <state relative-caret-position="510">
+              <caret line="30" column="5" lean-forward="false" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
+              <folding>
+                <element signature="e#439#440#0" expanded="true" />
+                <element signature="e#463#464#0" expanded="true" />
+                <element signature="e#493#494#0" expanded="true" />
+                <element signature="e#520#521#0" expanded="true" />
+                <element signature="e#629#630#0" expanded="true" />
+                <element signature="e#657#658#0" expanded="true" />
+                <element signature="e#688#689#0" expanded="true" />
+                <element signature="e#719#720#0" expanded="true" />
+                <element signature="e#778#779#0" expanded="true" />
+                <element signature="e#806#807#0" expanded="true" />
+                <element signature="e#834#835#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -77,6 +88,7 @@
         <option value="$PROJECT_DIR$/Ex_2/src/Exercise_2.java" />
         <option value="$PROJECT_DIR$/WorkoutBook/src/WorkoutBook.java" />
         <option value="$PROJECT_DIR$/WorkoutBook/src/WorkoutBookTest.java" />
+        <option value="$PROJECT_DIR$/Konto/src/Konto.java" />
       </list>
     </option>
   </component>
@@ -481,7 +493,14 @@
       <option name="project" value="LOCAL" />
       <updated>1491213680143</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Beginning with &quot;Konto&quot; exercise">
+      <created>1491213765701</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1491213765701</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -559,11 +578,20 @@
     <MESSAGE value="More functions for WorkoutBook" />
     <MESSAGE value="Working on WorkoutBookTest" />
     <MESSAGE value="Working on WorkoutBookTest&#10;&#10;Possible to create object with some default values, and then replace it with my own values via joptionpane.showinput...." />
-    <option name="LAST_COMMIT_MESSAGE" value="Working on WorkoutBookTest&#10;&#10;Possible to create object with some default values, and then replace it with my own values via joptionpane.showinput...." />
+    <MESSAGE value="Beginning with &quot;Konto&quot; exercise" />
+    <option name="LAST_COMMIT_MESSAGE" value="Beginning with &quot;Konto&quot; exercise" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="1" />
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Konto/src/Konto.java</url>
+          <line>36</line>
+          <properties />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="2" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -621,6 +649,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/WorkoutBook/src/WorkoutBookTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="20" column="43" lean-forward="false" selection-start-line="20" selection-start-column="43" selection-end-line="20" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/WorkoutBook/src/WorkoutBook.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="442">
@@ -632,21 +670,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/WorkoutBook/src/WorkoutBookTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="20" column="43" lean-forward="false" selection-start-line="20" selection-start-column="43" selection-end-line="20" selection-end-column="43" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Konto/src/Konto.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="20" lean-forward="true" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
-          <folding />
+        <state relative-caret-position="510">
+          <caret line="30" column="5" lean-forward="false" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
+          <folding>
+            <element signature="e#439#440#0" expanded="true" />
+            <element signature="e#463#464#0" expanded="true" />
+            <element signature="e#493#494#0" expanded="true" />
+            <element signature="e#520#521#0" expanded="true" />
+            <element signature="e#629#630#0" expanded="true" />
+            <element signature="e#657#658#0" expanded="true" />
+            <element signature="e#688#689#0" expanded="true" />
+            <element signature="e#719#720#0" expanded="true" />
+            <element signature="e#778#779#0" expanded="true" />
+            <element signature="e#806#807#0" expanded="true" />
+            <element signature="e#834#835#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
