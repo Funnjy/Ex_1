@@ -1,3 +1,5 @@
+import jdk.nashorn.internal.scripts.JO;
+
 import javax.swing.*;
 
 /**
@@ -6,7 +8,7 @@ import javax.swing.*;
 public class WorkoutBookTest {
     public static void main(String[]args){
 
-        WorkoutBook book = null, book2 = null;
+        WorkoutBook book = null;
 
         String group = JOptionPane.showInputDialog("Type group you are goig to train: ");
         String repetitions = JOptionPane.showInputDialog("Amount of repetitions: ");
@@ -15,6 +17,11 @@ public class WorkoutBookTest {
 
         book = new WorkoutBook(group, repetitions, sets);
 
+        JOptionPane.showMessageDialog(null, book,"Registred group: ",
+                JOptionPane.PLAIN_MESSAGE);
+        book.vis_innhold();
+
+        /*
         int svar = JOptionPane.showOptionDialog(null,
                 "Create new book?","Create new book?", JOptionPane.YES_NO_OPTION,
                 JOptionPane.QUESTION_MESSAGE, null,null,null);
@@ -29,6 +36,6 @@ public class WorkoutBookTest {
             info = info + "\n" + book2.get_group();
 
         JOptionPane.showMessageDialog(null,info,"Registred group",JOptionPane.PLAIN_MESSAGE);
-        book.visGroup();
+        book.visGroup();*/
     }
 }

@@ -34,10 +34,10 @@ public class WorkoutBook {
         return  sets;
     }
 
-    public void visGroup(){
+    public void vis_innhold(){
         JOptionPane.showMessageDialog(null,
                 "Muscle group is: " + get_group() +
-                         "Repetitions: " + get_repetitions() +
-                         "Sets: " + get_sets());
+                         " Repetitions: " + get_repetitions() +
+                         " Sets: " + get_sets());
     }
 }
