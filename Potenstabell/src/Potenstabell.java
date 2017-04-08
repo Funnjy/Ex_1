@@ -8,5 +8,12 @@ public class Potenstabell {
 
     private JTextArea textarea = new JTextArea();
 
+    public void set_text(String text_in){
+        textarea.setText(text_in);
+    }
+
+    public JTextArea get_textarea(){
+        return textarea;
+    }
 
 }
