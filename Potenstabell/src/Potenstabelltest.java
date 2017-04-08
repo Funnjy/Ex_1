@@ -5,7 +5,7 @@ import javax.swing.*;
 
 public class Potenstabelltest {
     public static void main(String[]args){
-        int tall = (int) (Math.random() * 100);
+
 
     }
 }
