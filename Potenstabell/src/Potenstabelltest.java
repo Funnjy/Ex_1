@@ -8,8 +8,11 @@ public class Potenstabelltest {
         int tall = (int) (Math.random() * 100);
         String h_input;
         Potenstabell ptabell = new Potenstabell();
+
         h_input = JOptionPane.showInputDialog(null, "Write your text");
+
         ptabell.set_text(h_input);
+
         JOptionPane.showMessageDialog(null, ptabell.get_textarea(), "Testing JText Area",
                 JOptionPane.INFORMATION_MESSAGE);
     }

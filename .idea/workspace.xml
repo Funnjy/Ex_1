@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c44d938e-16ba-4910-85ce-5403c72915a0" name="Default" comment="">
+    <list default="true" id="c44d938e-16ba-4910-85ce-5403c72915a0" name="Default" comment="Push update">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Potenstabell/src/Potenstabell.java" afterPath="$PROJECT_DIR$/Potenstabell/src/Potenstabell.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Potenstabell/src/Potenstabelltest.java" afterPath="$PROJECT_DIR$/Potenstabell/src/Potenstabelltest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -20,8 +19,8 @@
       <file leaf-file-name="Potenstabell.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Potenstabell/src/Potenstabell.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="37" lean-forward="false" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
+            <state relative-caret-position="187">
+              <caret line="11" column="34" lean-forward="true" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
                 <element signature="e#247#248#0" expanded="true" />
@@ -36,8 +35,8 @@
       <file leaf-file-name="Potenstabelltest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Potenstabell/src/Potenstabelltest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+            <state relative-caret-position="323">
+              <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -73,14 +72,15 @@
         <option value="$PROJECT_DIR$/Konto/src/Kontotest.java" />
         <option value="$PROJECT_DIR$/Veksleautomat/src/Veksleautomat.java" />
         <option value="$PROJECT_DIR$/Veksleautomat/src/Veksleautomattest.java" />
-        <option value="$PROJECT_DIR$/Potenstabell/src/Potenstabell.java" />
         <option value="$PROJECT_DIR$/Potenstabell/src/Potenstabelltest.java" />
+        <option value="$PROJECT_DIR$/Potenstabell/src/Potenstabell.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="742" />
-    <option name="width" value="1185" />
+    <option name="x" value="-8" />
+    <option name="y" value="1" />
+    <option name="width" value="1932" />
     <option name="height" value="1047" />
   </component>
   <component name="ProjectView">
@@ -612,12 +612,18 @@
       <option name="project" value="LOCAL" />
       <updated>1491678648658</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Potenstabell update">
+      <created>1491679053553</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1491679053553</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="742" y="0" width="1185" height="1047" extended-state="0" />
-    <editor active="true" />
+    <frame x="-8" y="1" width="1932" height="1047" extended-state="0" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -634,7 +640,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.089777775" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.053952992" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24945295" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -699,7 +705,8 @@
     <MESSAGE value="Added Veksleautomat methods. &#10;Upgrade and make it possible to use Double values" />
     <MESSAGE value="Potenstabell" />
     <MESSAGE value="Potenstabell update" />
-    <option name="LAST_COMMIT_MESSAGE" value="Potenstabell update" />
+    <MESSAGE value="Push update" />
+    <option name="LAST_COMMIT_MESSAGE" value="Push update" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -816,8 +823,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Potenstabell/src/Potenstabell.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="37" lean-forward="false" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
+        <state relative-caret-position="187">
+          <caret line="11" column="34" lean-forward="true" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
             <element signature="e#247#248#0" expanded="true" />
@@ -830,8 +837,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Potenstabell/src/Potenstabelltest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+        <state relative-caret-position="323">
+          <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
