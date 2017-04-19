@@ -18,5 +18,6 @@ public class Ex3 {
         }
 
         JOptionPane.showMessageDialog(null, text, "Table", JOptionPane.INFORMATION_MESSAGE);
+
     }
 }
