@@ -6,7 +6,9 @@ import javax.swing.JTextArea;
 public class Potenstabell {
     int tall = (int) (Math.random() * 100);
 
-    private JTextArea textarea = new JTextArea();
+    //Create JTextArea
+    public JTextArea textarea = new JTextArea();
+
 
     public void set_text(String text_in){
         textarea.setText(text_in);
@@ -15,5 +17,4 @@ public class Potenstabell {
     public JTextArea get_textarea(){
         return textarea;
     }
-
 }
