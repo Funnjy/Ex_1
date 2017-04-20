@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c44d938e-16ba-4910-85ce-5403c72915a0" name="Default" comment="">
+    <list default="true" id="c44d938e-16ba-4910-85ce-5403c72915a0" name="Default" comment="Added functions okDato(), and working onnedsdager()">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MeteoData/src/Meteorologi.java" afterPath="$PROJECT_DIR$/MeteoData/src/Meteorologi.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MeteoData/src/Statistikk.java" afterPath="$PROJECT_DIR$/MeteoData/src/Statistikk.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -33,18 +32,8 @@
       <file leaf-file-name="Meteorologi.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/MeteoData/src/Meteorologi.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="100" column="39" lean-forward="false" selection-start-line="100" selection-start-column="39" selection-end-line="100" selection-end-column="39" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Driver.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ExtendedPotenstabell/src/Driver.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="437">
-              <caret line="31" column="5" lean-forward="false" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
+            <state relative-caret-position="403">
+              <caret line="119" column="25" lean-forward="false" selection-start-line="119" selection-start-column="25" selection-end-line="119" selection-end-column="25" />
               <folding />
             </state>
           </provider>
@@ -708,7 +697,14 @@
       <option name="project" value="LOCAL" />
       <updated>1492694856951</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="Added functions skuddår() og månedsdager()">
+      <created>1492697049201</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1492697049201</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TodoView" selected-index="2">
@@ -791,7 +787,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Working on WorkoutBook exercise" />
     <MESSAGE value="More functions for WorkoutBook" />
     <MESSAGE value="Working on WorkoutBookTest" />
     <MESSAGE value="Working on WorkoutBookTest&#10;&#10;Possible to create object with some default values, and then replace it with my own values via joptionpane.showinput...." />
@@ -816,7 +811,8 @@
     <MESSAGE value="værStatistikk function added&#10;TODO: maksTempVarisasjonDager()" />
     <MESSAGE value="Finished Meteorologi data&#10;Work fine(with test I made)&#10;TODO: maksTempVarisasjonDager()" />
     <MESSAGE value="finished maksTempVarisasjonDager()" />
-    <option name="LAST_COMMIT_MESSAGE" value="finished maksTempVarisasjonDager()" />
+    <MESSAGE value="Added functions skuddår() og månedsdager()" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added functions skuddår() og månedsdager()" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1240,8 +1236,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/MeteoData/src/Meteorologi.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="100" column="39" lean-forward="false" selection-start-line="100" selection-start-column="39" selection-end-line="100" selection-end-column="39" />
+        <state relative-caret-position="403">
+          <caret line="119" column="25" lean-forward="false" selection-start-line="119" selection-start-column="25" selection-end-line="119" selection-end-column="25" />
           <folding />
         </state>
       </provider>

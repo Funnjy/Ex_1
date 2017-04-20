@@ -12,8 +12,8 @@ public class Meteorologi {
         int[] miTemp, maTemp, nedb;
         boolean boo = true;
 
-        //test
-        System.out.println(månedsdager(2,2000));
+        //TEST ONLY
+        JOptionPane.showMessageDialog(null, ""+ okDato(29,2,2000));
 
         //User input: mnd name, år
         mnd = JOptionPane.showInputDialog(null, "Les inn månedens navn");
@@ -88,7 +88,7 @@ public class Meteorologi {
             return false;
     }
 
-    //
+    //Return amount of days in given month based on which year user give
     public static int månedsdager(int måned, int år){
         if(måned < 1 || måned > 12){
             JOptionPane.showMessageDialog(null, "Parameter måned kan ikke vare mindre enn 1 eller større en 12");
@@ -106,5 +106,18 @@ public class Meteorologi {
             return 30;
         }
         else return 31;
+    }
+
+    //Return true if given date is valid based on month and year
+    public static boolean okDato(int dag, int mnd, int år){
+        if (dag > 1 && dag <= månedsdager(mnd, år)){
+            return true;
+        }
+        return false;
+    }
+
+    //
+    public static String månedsnavn(int mnd){
+
     }
 }
