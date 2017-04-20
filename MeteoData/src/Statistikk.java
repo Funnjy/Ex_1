@@ -1,3 +1,5 @@
+import javax.swing.*;
+
 /**
  * Created by Anton on 20.04.2017.
  */
@@ -64,9 +66,14 @@ public class Statistikk {
 
     //Return dates which have same temp variation as maximal, and information about how many days it was
     public String maksTempVariasjonDager(){
-
+        return "coming soon";
     }
 
-
+    //Print output into text box
+    public void værStatistikk(JTextArea output){
+        output.append("Antall regnedager som har mer en 5mm nedbør: " + regndager()
+                        + "\nGjennomsnitt av maks temperature: " + maksTempSnitt()
+                        + "\nMaks temperature variasjon: " + maksTempVariasjon());
+    }
 
 }
