@@ -15,26 +15,53 @@ public class ExtendedEx3 {
     public void potenser(int startverdi, int makseksponent, int antall){
         int h = 1;
         int potens = 1;
+
         while( h < makseksponent){
             text.append(h + ". potens\t");
             h++;
             if( h == makseksponent)
                 text.append(h + ". potens\n");
         }
-        h = 1;
+
+        int n= 0;
+
         for(int i = startverdi; i < antall; i ++){
-            for(int n = 1; n <= makseksponent; n++) {
-               if(n == 1){
+            potens = i;
+
+            while(n < makseksponent){
+
+                if(n != 0){
+                    text.append(i * potens + "\t");
+                    potens = potens * i;
+                }
+                else {
                     text.append(i + "\t");
                 }
+
+                n++;
+                if(n == makseksponent) {
+                    text.append("\n");
+                }
+
+            }
+            n = 0;
+            /*for(int n = 1; n <= makseksponent; n++ ) {
+                if(i == 1){
+                    text.append(i + "\t");
+                }
+
+                else if(n == 1){
+                    text.append(i + "\t");
+                }
+
                 else{
                     text.append(i * h  + "\t");
-                    h++;
+                    h += i;
                 }
-            }
+            }*/
 
             text.append("\n");
-            h = 1;
+
         }
     }
 
