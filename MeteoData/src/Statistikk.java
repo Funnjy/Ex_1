@@ -66,7 +66,16 @@ public class Statistikk {
 
     //Return dates which have same temp variation as maximal, and information about how many days it was
     public String maksTempVariasjonDager(){
-        return "coming soon";
+        int antallDager = 0;
+        int maksVariasjon = maksTempVariasjon();
+        String dagerGjelder = "";
+
+        for(int i = 0; i < minTemp.length; i++){
+            if((maxTemp[i]-minTemp[i]) == maksVariasjon){
+                dagerGjelder += (String.valueOf(i));
+            }
+        }
+        return dagerGjelder;
     }
 
     //Print output into text box

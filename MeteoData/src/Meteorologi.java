@@ -73,6 +73,7 @@ public class Meteorologi {
 
         //Show resultat
         JOptionPane.showMessageDialog(null, resutltat, "Statistikk", JOptionPane.INFORMATION_MESSAGE);
+        JOptionPane.showMessageDialog(null, myStatistikk.maksTempVariasjonDager());
 
     }
 }
