@@ -6,16 +6,22 @@ import javax.swing.*;
  * Created by Anton on 19.04.2017.
  */
 public class ExtendedEx3 {
-    JTextArea text = new JTextArea();
 
+    //Definition of variables needed
+    private int potens;
+    private int n= 0;
+    private JTextArea text = new JTextArea();
+
+    //Calculate and return potens
     public int power(int x, int y){
         return x*y;
     }
 
+    //Create table formed output
     public void potenser(int startverdi, int makseksponent, int antall){
         int h = 1;
-        int potens = 1;
 
+        //Create header for text area
         while( h < makseksponent){
             text.append(h + ". potens\t");
             h++;
@@ -23,48 +29,35 @@ public class ExtendedEx3 {
                 text.append(h + ". potens\n");
         }
 
-        int n= 0;
-
-        for(int i = startverdi; i < antall; i ++){
+        //For loop going through "antall" variables and calculate potens
+        for(int i = startverdi; i <= antall; i ++){
             potens = i;
 
+            //Calculate and append maks potens
             while(n < makseksponent){
-
+                //If not 1.potens do this
                 if(n != 0){
                     text.append(i * potens + "\t");
-                    potens = potens * i;
+                    potens = power(potens, i);
                 }
+
+                //If 1.st potens do not calculate
                 else {
                     text.append(i + "\t");
                 }
 
-                n++;
+                //New line after
                 if(n == makseksponent) {
                     text.append("\n");
                 }
-
+                n++;
             }
             n = 0;
-            /*for(int n = 1; n <= makseksponent; n++ ) {
-                if(i == 1){
-                    text.append(i + "\t");
-                }
-
-                else if(n == 1){
-                    text.append(i + "\t");
-                }
-
-                else{
-                    text.append(i * h  + "\t");
-                    h += i;
-                }
-            }*/
-
             text.append("\n");
-
         }
     }
 
+    //Return JTextArea
     public JTextArea get_textbox(){
         return text;
     }
