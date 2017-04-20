@@ -51,6 +51,19 @@ public class Statistikk {
 
     //Return biggest temperature variation for one day of the month
     public int maksTempVariasjon(){
+        int variasjon = 0;
+
+        for (int i = 0; i < minTemp.length; i++){
+            if((maxTemp[i]-minTemp[i]) > variasjon){
+                variasjon = maxTemp[i]-minTemp[i];
+            }
+        }
+
+        return variasjon;
+    }
+
+    //Return dates which have same temp variation as maximal, and information about how many days it was
+    public String maksTempVariasjonDager(){
 
     }
 
