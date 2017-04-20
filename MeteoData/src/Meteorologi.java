@@ -12,6 +12,9 @@ public class Meteorologi {
         int[] miTemp, maTemp, nedb;
         boolean boo = true;
 
+        //test
+        System.out.println(månedsdager(2,2000));
+
         //User input: mnd name, år
         mnd = JOptionPane.showInputDialog(null, "Les inn månedens navn");
         numString = JOptionPane.showInputDialog(null, "Les inn nåværende år");
@@ -75,5 +78,33 @@ public class Meteorologi {
         JOptionPane.showMessageDialog(null, resutltat, "Statistikk", JOptionPane.INFORMATION_MESSAGE);
         JOptionPane.showMessageDialog(null, myStatistikk.maksTempVariasjonDager());
 
+    }
+    //Check if year is leap year
+    public static boolean skuddår(int årstall){
+        if (årstall%4 == 0  && årstall%400 == 0){
+            return true;
+        }
+        else
+            return false;
+    }
+
+    //
+    public static int månedsdager(int måned, int år){
+        if(måned < 1 || måned > 12){
+            JOptionPane.showMessageDialog(null, "Parameter måned kan ikke vare mindre enn 1 eller større en 12");
+            return -1;
+        }
+        if(måned == 2){
+            if (skuddår(år) == false){
+                return 28;
+            }
+            else if(skuddår(år) == true){
+                return 29;
+            }
+        }
+        if(måned%2 == 0){
+            return 30;
+        }
+        else return 31;
     }
 }

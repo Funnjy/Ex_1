@@ -21,6 +21,8 @@ public class Statistikk {
         nedbør = ned;
     }
 
+    //
+
     //Rainy days that have more then 5mm
     public int regndager(){
 
