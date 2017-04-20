@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c44d938e-16ba-4910-85ce-5403c72915a0" name="Default" comment="Added functions okDato(), and working onnedsdager()">
+    <list default="true" id="c44d938e-16ba-4910-85ce-5403c72915a0" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MeteoData/src/Meteorologi.java" afterPath="$PROJECT_DIR$/MeteoData/src/Meteorologi.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -32,8 +31,8 @@
       <file leaf-file-name="Meteorologi.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/MeteoData/src/Meteorologi.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="403">
-              <caret line="119" column="25" lean-forward="false" selection-start-line="119" selection-start-column="25" selection-end-line="119" selection-end-column="25" />
+            <state relative-caret-position="199">
+              <caret line="107" column="23" lean-forward="true" selection-start-line="107" selection-start-column="23" selection-end-line="107" selection-end-column="23" />
               <folding />
             </state>
           </provider>
@@ -704,7 +703,14 @@
       <option name="project" value="LOCAL" />
       <updated>1492697049201</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="Added functions okDato(), and working on månedsnavn()">
+      <created>1492697561567</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1492697561567</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TodoView" selected-index="2">
@@ -787,7 +793,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="More functions for WorkoutBook" />
     <MESSAGE value="Working on WorkoutBookTest" />
     <MESSAGE value="Working on WorkoutBookTest&#10;&#10;Possible to create object with some default values, and then replace it with my own values via joptionpane.showinput...." />
     <MESSAGE value="Beginning with &quot;Konto&quot; exercise" />
@@ -812,7 +817,8 @@
     <MESSAGE value="Finished Meteorologi data&#10;Work fine(with test I made)&#10;TODO: maksTempVarisasjonDager()" />
     <MESSAGE value="finished maksTempVarisasjonDager()" />
     <MESSAGE value="Added functions skuddår() og månedsdager()" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added functions skuddår() og månedsdager()" />
+    <MESSAGE value="Added functions okDato(), and working on månedsnavn()" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added functions okDato(), and working on månedsnavn()" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1236,8 +1242,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/MeteoData/src/Meteorologi.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="403">
-          <caret line="119" column="25" lean-forward="false" selection-start-line="119" selection-start-column="25" selection-end-line="119" selection-end-column="25" />
+        <state relative-caret-position="199">
+          <caret line="107" column="23" lean-forward="true" selection-start-line="107" selection-start-column="23" selection-end-line="107" selection-end-column="23" />
           <folding />
         </state>
       </provider>
