@@ -17,7 +17,7 @@ public class Oblig1 {
     /**
      * @param args the command line arguments
      */
-    /*TEMP main metode*/
+    //TEMP main metode
     public static void main(String[] args) {
         System.out.println("OPPGAVE 5");
         char[] a = {'A','B','C','D','E','F','G'};
@@ -64,7 +64,8 @@ public class Oblig1 {
         }
         return maksverdi;
     }
-    /*Metoden teller opp antall ombytninger for opp1*/
+
+    //Metoden teller opp antall ombytninger for opp1
     public static int ombytninger(int[]a){
         int count = 0;
         int n = a.length;
@@ -84,10 +85,8 @@ public class Oblig1 {
         }
         return count;
     }
-    /*Avslutning av oppgave 1*/
 
-    /*Oppgave 2 - Metoden sorterer verdiene en og en etter hverandre
-    */
+    //Oppgave 2 - Metoden sorterer verdiene en og en etter hverandre
     public static void sortering(int [] a){
         int n = a.length;
         if(n == 0 || n == 1){
@@ -101,7 +100,6 @@ public class Oblig1 {
             }
         }
     }
-    /*Avslutning av oppgave 2*/
 
     /*Oppgave 3 Metoden skal lage permutasjon av sifre fra 0-5
     og skal ha noe spesiell tilfeller her.(se oppgavetekst)*/
@@ -126,8 +124,8 @@ public class Oblig1 {
         System.out.println(Arrays.toString(nummer));
         return 1;
     }
-    /*Avslutning av oppgave 3*/
-    /*Oppgave 4*/
+
+    //Oppgave 4
     public static int antallUlikeUsortert(int[] a){
         int n = a.length;
         int count = 0;
@@ -142,8 +140,8 @@ public class Oblig1 {
         uniq = n-count;
         return uniq;
     }
-    /*Avslutning oppgave 4*/
-    /*Oppgave 5- rotere elementene til høyre eller til venstre*/
+
+    //Oppgave 5- rotere elementene til høyre eller til venstre
     public static void rotasjon(char[] a){
 
         int n = a.length;
@@ -158,9 +156,8 @@ public class Oblig1 {
             }
         }
     }
-    /*Avslutning oppgave 5*/
 
-    /*Oppgave 6*/
+    //Oppgave 6
     public static void rotasjon(char[] a, int k){
         int n = a.length;
         if(n == 0 || n == 1) return;
@@ -170,9 +167,8 @@ public class Oblig1 {
         for(int i = n-1 ; i >=k; i--) a[i] = a[i-k];
         System.arraycopy(b,0,a,0,k);
     }
-    /*Avslutning oppgave 6*/
 
-    /*Oppgave 7 a)*/
+    //Oppgave 7 a)
     public static String flett(String s, String t){
         StringBuilder resultat = new StringBuilder(s.length() + t.length());
         int i = 0;
@@ -189,9 +185,8 @@ public class Oblig1 {
 
         return resultat.toString();
     }
-    /*Avslutning oppgave 7 a)*/
 
-    /*Oppgave 7 b)*/
+    //Oppgave 7 b)
     public static String flett(String... s){
         int lengde = 0;
 
@@ -213,9 +208,8 @@ public class Oblig1 {
 
         return resultat.toString();
     }
-    /*Avslutning 7 b)*/
 
-    /*Oppgave 8 a)*/
+    //Oppgave 8 a)
     public static int[] index (int[]a){
         if ( a.length < 3){
             throw new java.util.NoSuchElementException("Tabellen må ha minst 3 verdier.");
@@ -246,7 +240,8 @@ public class Oblig1 {
 
         return indeks;
     }
-    /*Oppgave 8 b)*/
+
+    //Oppgave 8 b)
     public static int[] tredjeMin(int[]a){
         if(a.length < 3){
             throw new java.util.NoSuchElementException("Tabellen inneholder mindre en 3 verdier.");
@@ -285,7 +280,6 @@ public class Oblig1 {
 
         return indeks;
     }
-    /*Avslutning av oppgave 8*/
 
     //Temp
     public static void skriv(Object... a){
