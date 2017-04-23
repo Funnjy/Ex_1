@@ -14,7 +14,7 @@ public class Meteorologi extends JFrame implements ActionListener {
     private JLabel d, m, å;
 
     //Input fields
-    private JTextField dato, måned, år;
+    private JTextField input1, input2, input3;
 
     //Output fields
     private JTextArea utskrift;
@@ -28,12 +28,13 @@ public class Meteorologi extends JFrame implements ActionListener {
 
         //Output area
         utskrift = new JTextArea(10,30);
+        utskrift.setEditable(true);
         JScrollPane scrollUtskrift = new JScrollPane(utskrift);
 
         //Input area
-        dato = new JTextField(10);
-        måned = new JTextField(10);
-        år = new JTextField(10);
+        input1 = new JTextField(10);
+        input2 = new JTextField(10);
+        input3 = new JTextField(10);
 
         //Button listener
         //enter.addActionListener(this);
@@ -45,101 +46,26 @@ public class Meteorologi extends JFrame implements ActionListener {
 
         //Buttons
         enter = new JButton("Enter");
+        enter.addActionListener(this);
 
         //Containers
         Container c = getContentPane();
         c.setLayout(new FlowLayout());
 
         c.add(d);
-        c.add(dato);
+        c.add(input1);
 
         c.add(m);
-        c.add(måned);
+        c.add(input2);
 
         c.add(å);
-        c.add(år);
+        c.add(input3);
 
         c.add(utskrift);
         c.add(enter);
+
         utskrift.setText("Registrert informasjon:\n");
     }
-
-    /*public static void main(String[] args){
-
-        //Variables definition
-        String numString, mnd;
-        int år, antallDager, min, maks, n;
-        int[] miTemp, maTemp, nedb;
-        boolean boo = true;
-
-        //TEST ONLY
-        JOptionPane.showMessageDialog(null, " "+ date_format(JOptionPane.showInputDialog(null, "Skriv dato (dd.mm.åååå): ")));
-
-        //User input: mnd name, år
-        mnd = JOptionPane.showInputDialog(null, "Les inn månedens navn");
-        numString = JOptionPane.showInputDialog(null, "Les inn nåværende år");
-
-        //String to int convert
-        år = Integer.parseInt(numString);
-
-        //User input: number of days
-        numString = JOptionPane.showInputDialog(null, "Les inn antall dager i måned");
-
-        //String to int convert
-        antallDager = Integer.parseInt(numString);
-
-        miTemp = new int[antallDager];
-        maTemp = new int[antallDager];
-        nedb = new int[antallDager];
-
-        int wInt = 0;
-        while(wInt < antallDager){
-
-            //User input: min temp, maks temp, nedbør
-            numString = JOptionPane.showInputDialog(null, "Les inn minimum temperatur for dag " + (wInt+1));
-            min = Integer.parseInt(numString);
-            numString = JOptionPane.showInputDialog(null, "Les inn maksimum temperatur for dag " + (wInt+1));
-            maks = Integer.parseInt(numString);
-            numString = JOptionPane.showInputDialog(null, "Les inn nedbør for dag " + (wInt+1));
-            n = Integer.parseInt(numString);
-
-            //Check parameters
-            if(min > maks){
-                JOptionPane.showMessageDialog(null, "Minimum temperatur kan ikke være større en maksimum");
-                boo = false;
-            }
-            else if(min < -40 || min > 50 || maks < -40 || maks > 50){
-                JOptionPane.showMessageDialog(null, "Min/maks temperature range er invalid");
-                boo = false;
-            }
-            else if(n < 0 || n > 40){
-                JOptionPane.showMessageDialog(null, "Nedbær er invalid range");
-                boo = false;
-            }
-
-            if(boo){
-                miTemp[wInt] = min;
-                maTemp[wInt] = maks;
-                nedb[wInt] = n;
-                wInt++;
-            }
-        }
-
-        //Create Statistikk obj
-        Statistikk myStatistikk = new Statistikk(mnd, år, miTemp, maTemp, nedb);
-
-        //Text boxt
-        JTextArea resutltat = new JTextArea();
-
-        //Fill textbox with information
-        myStatistikk.værStatistikk(resutltat);
-
-        //Show resultat
-        JOptionPane.showMessageDialog(null, resutltat, "Statistikk", JOptionPane.INFORMATION_MESSAGE);
-        JOptionPane.showMessageDialog(null, myStatistikk.maksTempVariasjonDager());
-
-    }
-    */
 
     //Check if year is leap year
     public static boolean skuddår(int årstall){
@@ -223,6 +149,12 @@ public class Meteorologi extends JFrame implements ActionListener {
     }
 
     public void actionPerformed(ActionEvent e){
+        String dag, måned, år;
 
+        dag = input1.getText();
+        måned = input2.getText();
+        år = input3.getText();
+
+        utskrift.append("I dag er " + dag + "/" + måned + "/" + år + "\n" );
     }
 }
