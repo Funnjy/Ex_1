@@ -14,6 +14,7 @@
       <module fileurl="file://$PROJECT_DIR$/RealPotenstabell/RealPotenstabell.iml" filepath="$PROJECT_DIR$/RealPotenstabell/RealPotenstabell.iml" />
       <module fileurl="file://$PROJECT_DIR$/Veksleautomat/Veksleautomat.iml" filepath="$PROJECT_DIR$/Veksleautomat/Veksleautomat.iml" />
       <module fileurl="file://$PROJECT_DIR$/WorkoutBook/WorkoutBook.iml" filepath="$PROJECT_DIR$/WorkoutBook/WorkoutBook.iml" />
+      <module fileurl="file://$PROJECT_DIR$/WorkoutBookV/WorkoutBookV.iml" filepath="$PROJECT_DIR$/WorkoutBookV/WorkoutBookV.iml" />
     </modules>
   </component>
 </project>
