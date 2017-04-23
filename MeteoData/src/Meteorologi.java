@@ -7,7 +7,7 @@ public class Meteorologi {
 
     enum Måneder {JANUAR, FEBRUAR, MARS, APRIL, MAI, JUNI, JULI, AUGUST, SEPTEMBER, OKTOBER, NOVEMBER, DESEMBER, UKJENTMÅNED};
 
-    public static void main(String[] args{
+    public static void main(String[] args){
 
         //Variables definition
         String numString, mnd;

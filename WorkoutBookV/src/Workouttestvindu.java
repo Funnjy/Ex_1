@@ -14,6 +14,9 @@ public class Workouttestvindu extends JFrame implements ActionListener{
     //Output fields
     private JTextArea output;
 
+    //Buttons
+    private JButton ok;
+
 
     public Workouttestvindu(){
 
