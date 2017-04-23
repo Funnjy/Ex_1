@@ -4,6 +4,9 @@ import javax.swing.*;
  * Created by Anton on 20.04.2017.
  */
 public class Meteorologi {
+
+    enum Måneder {JANUAR, FEBRUAR, MARS, APRIL, MAI, JUNI, JULI, AUGUST, SEPTEMBER, OKTOBER, NOVEMBER, DESEMBER, UKJENTMÅNED};
+
     public static void main(String args[]){
 
         //Variables definition
@@ -13,7 +16,7 @@ public class Meteorologi {
         boolean boo = true;
 
         //TEST ONLY
-        JOptionPane.showMessageDialog(null, ""+ okDato(29,2,2000));
+        JOptionPane.showMessageDialog(null, ""+ månedsnavn(13));
 
         //User input: mnd name, år
         mnd = JOptionPane.showInputDialog(null, "Les inn månedens navn");
@@ -116,8 +119,30 @@ public class Meteorologi {
         return false;
     }
 
-    //
-    public static String månedsnavn(int mnd){
+    //Return manth name based on user input. Returns *ukjent måned" if input is invalid
+    public static Måneder månedsnavn(int mnd){
+        Måneder januar, februar, mars, april, mai, juni, juli, august, september, oktober, november, desember, ukjent;
 
+        //Declare month
+        januar = Måneder.JANUAR;
+        februar = Måneder.FEBRUAR;
+        mars = Måneder.MARS;
+        april = Måneder.APRIL;
+        mai = Måneder.MAI;
+        juni = Måneder.JUNI;
+        juli = Måneder.JULI;
+        august = Måneder.AUGUST;
+        september = Måneder.SEPTEMBER;
+        oktober = Måneder.OKTOBER;
+        november = Måneder.NOVEMBER;
+        desember = Måneder.DESEMBER;
+        ukjent = Måneder.UKJENTMÅNED;
+
+        Måneder[] måned_array = new Måneder[]{januar,februar,mars,april,mai,juni,juli,august,september,oktober,november,desember, ukjent};
+
+        if(mnd > 12 ||  mnd < 1){
+            return måned_array[måned_array.length-1];
+        }
+        return måned_array[mnd];
     }
 }
