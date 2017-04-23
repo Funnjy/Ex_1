@@ -16,7 +16,7 @@ public class Meteorologi {
         boolean boo = true;
 
         //TEST ONLY
-        JOptionPane.showMessageDialog(null, ""+ månedsnavn(13));
+        JOptionPane.showMessageDialog(null, " "+ date_format(JOptionPane.showInputDialog(null, "Skriv dato (dd.mm.åååå): ")));
 
         //User input: mnd name, år
         mnd = JOptionPane.showInputDialog(null, "Les inn månedens navn");
@@ -124,18 +124,10 @@ public class Meteorologi {
         Måneder januar, februar, mars, april, mai, juni, juli, august, september, oktober, november, desember, ukjent;
 
         //Declare month
-        januar = Måneder.JANUAR;
-        februar = Måneder.FEBRUAR;
-        mars = Måneder.MARS;
-        april = Måneder.APRIL;
-        mai = Måneder.MAI;
-        juni = Måneder.JUNI;
-        juli = Måneder.JULI;
-        august = Måneder.AUGUST;
-        september = Måneder.SEPTEMBER;
-        oktober = Måneder.OKTOBER;
-        november = Måneder.NOVEMBER;
-        desember = Måneder.DESEMBER;
+        januar = Måneder.JANUAR; februar = Måneder.FEBRUAR; mars = Måneder.MARS;
+        april = Måneder.APRIL; mai = Måneder.MAI; juni = Måneder.JUNI;
+        juli = Måneder.JULI; august = Måneder.AUGUST; september = Måneder.SEPTEMBER;
+        oktober = Måneder.OKTOBER; november = Måneder.NOVEMBER; desember = Måneder.DESEMBER;
         ukjent = Måneder.UKJENTMÅNED;
 
         Måneder[] måned_array = new Måneder[]{januar,februar,mars,april,mai,juni,juli,august,september,oktober,november,desember, ukjent};
@@ -144,5 +136,30 @@ public class Meteorologi {
             return måned_array[måned_array.length-1];
         }
         return måned_array[mnd];
+    }
+
+    //Take STRING and convert it to numbers. Then make answer
+    public static int date_format(String date){
+
+        int dato, mnd, y;
+
+        JOptionPane.showInputDialog("Skriv dato (dd.mm.åååå); ");
+
+        dato = Integer.parseInt(date.substring(0,2));
+        if(dato < 1 || dato > 31) {
+            JOptionPane.showInputDialog("Dato verdi er ugyldig!");
+            return -1;
+        }
+
+        mnd = Integer.parseInt(date.substring(3,5));
+        if(mnd < 1 || mnd > 12){
+            JOptionPane.showInputDialog("Måned verdi er ugyldig!");
+            return -1;
+        }
+
+        y = Integer.parseInt(date.substring(6));
+
+        JOptionPane.showMessageDialog(null, "" + dato + " " + månedsnavn(mnd)+ " " + y);
+        return 1;
     }
 }
