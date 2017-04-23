@@ -1,13 +1,69 @@
 import javax.swing.*;
+import java.awt.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
 
 /**
  * Created by Anton on 20.04.2017.
  */
-public class Meteorologi {
+public class Meteorologi extends JFrame implements ActionListener {
 
     enum Måneder {JANUAR, FEBRUAR, MARS, APRIL, MAI, JUNI, JULI, AUGUST, SEPTEMBER, OKTOBER, NOVEMBER, DESEMBER, UKJENTMÅNED};
 
-    public static void main(String[] args){
+    //Lables
+    private JLabel d, m, å;
+
+    //Input fields
+    private JTextField dato, måned, år;
+
+    //Output fields
+    private JTextArea utskrift;
+
+    //Buttons and controls
+    private JButton enter;
+
+    public Meteorologi(){
+
+        super("Meteorologi logg");
+
+        //Output area
+        utskrift = new JTextArea(10,30);
+        JScrollPane scrollUtskrift = new JScrollPane(utskrift);
+
+        //Input area
+        dato = new JTextField(10);
+        måned = new JTextField(10);
+        år = new JTextField(10);
+
+        //Button listener
+        //enter.addActionListener(this);
+
+        //Labels
+        d = new JLabel("Opggi dato:");
+        m = new JLabel("Oppgi måned:");
+        å = new JLabel("Oppgi år");
+
+        //Buttons
+        enter = new JButton("Enter");
+
+        //Containers
+        Container c = new Container();
+        c.setLayout(new FlowLayout());
+
+        c.add(d);
+        c.add(dato);
+
+        c.add(m);
+        c.add(måned);
+
+        c.add(å);
+        c.add(år);
+
+        c.add(utskrift);
+        utskrift.setText("Registrert informasjon:\n");
+    }
+
+    /*public static void main(String[] args){
 
         //Variables definition
         String numString, mnd;
@@ -82,6 +138,8 @@ public class Meteorologi {
         JOptionPane.showMessageDialog(null, myStatistikk.maksTempVariasjonDager());
 
     }
+    */
+
     //Check if year is leap year
     public static boolean skuddår(int årstall){
         if (årstall%4 == 0  && årstall%400 == 0){
@@ -161,5 +219,9 @@ public class Meteorologi {
 
         JOptionPane.showMessageDialog(null, "" + dato + " " + månedsnavn(mnd)+ " " + y);
         return 1;
+    }
+
+    public void actionPerformed(ActionEvent e){
+
     }
 }
