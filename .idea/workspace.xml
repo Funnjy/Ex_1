@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c44d938e-16ba-4910-85ce-5403c72915a0" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MeteoData/src/Meteorologivindutest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MeteoData/src/Meteorologi.java" afterPath="$PROJECT_DIR$/MeteoData/src/Meteorologi.java" />
     </list>
@@ -33,8 +32,8 @@
       <file leaf-file-name="Meteorologi.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/MeteoData/src/Meteorologi.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="29" column="40" lean-forward="true" selection-start-line="29" selection-start-column="40" selection-end-line="29" selection-end-column="40" />
+            <state relative-caret-position="294">
+              <caret line="59" column="18" lean-forward="true" selection-start-line="59" selection-start-column="18" selection-end-line="59" selection-end-column="18" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -843,7 +842,14 @@
       <option name="project" value="LOCAL" />
       <updated>1492969202257</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL-00044" summary="Meteorologi working on window">
+      <created>1492971277126</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1492971277126</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="TodoView" selected-index="2">
@@ -926,7 +932,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Added Veksleautomat methods. &#10;Upgrade and make it possible to use Double values" />
     <MESSAGE value="Potenstabell" />
     <MESSAGE value="Potenstabell update" />
     <MESSAGE value="Potenstabell shows 100 numbers between 0 and 100 &#10;and shows biggest, next biggest, min and next min" />
@@ -951,7 +956,8 @@
     <MESSAGE value="Added date_format()&#10;Require improvements" />
     <MESSAGE value="Work on Workout logging application" />
     <MESSAGE value="Workout expanding with input" />
-    <option name="LAST_COMMIT_MESSAGE" value="Workout expanding with input" />
+    <MESSAGE value="Meteorologi working on window" />
+    <option name="LAST_COMMIT_MESSAGE" value="Meteorologi working on window" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1320,8 +1326,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/MeteoData/src/Meteorologi.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="29" column="40" lean-forward="true" selection-start-line="29" selection-start-column="40" selection-end-line="29" selection-end-column="40" />
+        <state relative-caret-position="294">
+          <caret line="59" column="18" lean-forward="true" selection-start-line="59" selection-start-column="18" selection-end-line="59" selection-end-column="18" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

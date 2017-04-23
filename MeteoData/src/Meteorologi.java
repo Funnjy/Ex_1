@@ -47,7 +47,7 @@ public class Meteorologi extends JFrame implements ActionListener {
         enter = new JButton("Enter");
 
         //Containers
-        Container c = new Container();
+        Container c = getContentPane();
         c.setLayout(new FlowLayout());
 
         c.add(d);
@@ -60,6 +60,7 @@ public class Meteorologi extends JFrame implements ActionListener {
         c.add(år);
 
         c.add(utskrift);
+        c.add(enter);
         utskrift.setText("Registrert informasjon:\n");
     }
 
