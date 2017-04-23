@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c44d938e-16ba-4910-85ce-5403c72915a0" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WorkoutBookV/WorkoutBookV.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WorkoutBookV/src/Workoutdriver.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WorkoutBookV/src/Workouttestvindu.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MeteoData/src/Meteorologi.java" afterPath="$PROJECT_DIR$/MeteoData/src/Meteorologi.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WorkoutBookV/src/Workouttestvindu.java" afterPath="$PROJECT_DIR$/WorkoutBookV/src/Workouttestvindu.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -23,11 +19,11 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Workouttestvindu.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Workouttestvindu.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/WorkoutBookV/src/Workouttestvindu.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="26" lean-forward="true" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
+            <state relative-caret-position="255">
+              <caret line="33" column="13" lean-forward="true" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
                 <element signature="imports" expanded="true" />
@@ -36,7 +32,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Workoutdriver.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Workoutdriver.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/WorkoutBookV/src/Workoutdriver.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="255">
@@ -83,9 +79,9 @@
         <option value="$PROJECT_DIR$/ExtendedPotenstabell/src/Driver.java" />
         <option value="$PROJECT_DIR$/Algorithms/src/obl1.java" />
         <option value="$PROJECT_DIR$/Algorithms/src/Oblig1.java" />
-        <option value="$PROJECT_DIR$/WorkoutBookV/src/Workouttestvindu.java" />
         <option value="$PROJECT_DIR$/MeteoData/src/Meteorologi.java" />
         <option value="$PROJECT_DIR$/WorkoutBookV/src/Workoutdriver.java" />
+        <option value="$PROJECT_DIR$/WorkoutBookV/src/Workouttestvindu.java" />
       </list>
     </option>
   </component>
@@ -808,7 +804,14 @@
       <option name="project" value="LOCAL" />
       <updated>1492958050487</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="Work on Workout logging application">
+      <created>1492962333147</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1492962333147</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="TodoView" selected-index="2">
@@ -891,7 +894,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Define 2 Konto and trying Konto.methods" />
     <MESSAGE value="Starting &quot;Veksleautoma&quot;" />
     <MESSAGE value="Added Veksleautomat methods. &#10;Upgrade and make it possible to use Double values" />
     <MESSAGE value="Potenstabell" />
@@ -916,7 +918,8 @@
     <MESSAGE value="Added månedsnavn()" />
     <MESSAGE value="Modified månedsnavn()" />
     <MESSAGE value="Added date_format()&#10;Require improvements" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added date_format()&#10;Require improvements" />
+    <MESSAGE value="Work on Workout logging application" />
+    <option name="LAST_COMMIT_MESSAGE" value="Work on Workout logging application" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1269,22 +1272,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/WorkoutBookV/src/Workouttestvindu.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="26" lean-forward="true" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/WorkoutBookV/src/Workoutdriver.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WorkoutBookV/src/Workouttestvindu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="33" column="13" lean-forward="true" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
