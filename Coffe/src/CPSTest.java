@@ -7,7 +7,7 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
 public class CPSTest extends JFrame{
-    private CoffeList coffeList;
+    public CoffeList coffeList;
     private JTextField tittel;
     private JButton skrivUt;
     private JTextArea utskrift;
