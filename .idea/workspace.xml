@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c44d938e-16ba-4910-85ce-5403c72915a0" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Files/src/CreateDir.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Files/src/ReadDir.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -62,11 +62,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CreateDir.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="CreateDir.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Files/src/CreateDir.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="119">
               <caret line="7" column="67" lean-forward="false" selection-start-line="7" selection-start-column="67" selection-end-line="7" selection-end-column="67" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ReadDir.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Files/src/ReadDir.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="26" lean-forward="false" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -137,6 +149,7 @@
         <option value="$PROJECT_DIR$/Files/src/ReadConsole.java" />
         <option value="$PROJECT_DIR$/Files/src/FileStreamT.java" />
         <option value="$PROJECT_DIR$/Files/src/CreateDir.java" />
+        <option value="$PROJECT_DIR$/Files/src/ReadDir.java" />
       </list>
     </option>
   </component>
@@ -274,22 +287,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.CreateDir">
-    <configuration default="false" name="DataStore" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="DataStore" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="Coffe" />
-      <envs />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Application.ReadDir">
     <configuration default="false" name="CopyFile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="CopyFile" />
@@ -338,6 +336,21 @@
     <configuration default="false" name="CreateDir" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="CreateDir" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="Files" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="ReadDir" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="ReadDir" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -555,19 +568,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.DataStore" />
-      <item index="1" class="java.lang.String" itemvalue="Application.CopyFile" />
-      <item index="2" class="java.lang.String" itemvalue="Application.ReadConsole" />
-      <item index="3" class="java.lang.String" itemvalue="Application.FileStreamT" />
-      <item index="4" class="java.lang.String" itemvalue="Application.CreateDir" />
+      <item index="0" class="java.lang.String" itemvalue="Application.CopyFile" />
+      <item index="1" class="java.lang.String" itemvalue="Application.ReadConsole" />
+      <item index="2" class="java.lang.String" itemvalue="Application.FileStreamT" />
+      <item index="3" class="java.lang.String" itemvalue="Application.CreateDir" />
+      <item index="4" class="java.lang.String" itemvalue="Application.ReadDir" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.CreateDir" />
-        <item index="1" class="java.lang.String" itemvalue="Application.FileStreamT" />
-        <item index="2" class="java.lang.String" itemvalue="Application.ReadConsole" />
-        <item index="3" class="java.lang.String" itemvalue="Application.CopyFile" />
-        <item index="4" class="java.lang.String" itemvalue="Application.DataStore" />
+        <item index="0" class="java.lang.String" itemvalue="Application.ReadDir" />
+        <item index="1" class="java.lang.String" itemvalue="Application.CreateDir" />
+        <item index="2" class="java.lang.String" itemvalue="Application.FileStreamT" />
+        <item index="3" class="java.lang.String" itemvalue="Application.ReadConsole" />
+        <item index="4" class="java.lang.String" itemvalue="Application.CopyFile" />
       </list>
     </recent_temporary>
   </component>
@@ -581,13 +594,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1490897065405</updated>
-    </task>
-    <task id="LOCAL-00005" summary="Working on WorkoutBookTest">
-      <created>1491168675064</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1491168675064</updated>
     </task>
     <task id="LOCAL-00006" summary="Working on WorkoutBookTest&#10;&#10;Possible to create object with some default values, and then replace it with my own values via joptionpane.showinput....">
       <created>1491213680143</created>
@@ -925,7 +931,14 @@
       <option name="project" value="LOCAL" />
       <updated>1497135560311</updated>
     </task>
-    <option name="localTasksCounter" value="54" />
+    <task id="LOCAL-00054" summary="Create dir class">
+      <created>1497167937099</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1497167937100</updated>
+    </task>
+    <option name="localTasksCounter" value="55" />
     <servers />
   </component>
   <component name="TodoView" selected-index="2">
@@ -951,7 +964,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32975295" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32932165" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1598063" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.5472155" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32932165" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1009,7 +1022,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Extended Potenstabell done" />
     <MESSAGE value="Arithmetics  operators" />
     <MESSAGE value="Arithmetics  operators extended version." />
     <MESSAGE value="MeteoData, work on Statistikk class methods" />
@@ -1034,7 +1046,8 @@
     <MESSAGE value="ReadConsole class" />
     <MESSAGE value="FileStreamT class" />
     <MESSAGE value="FileStreamT class w. comm" />
-    <option name="LAST_COMMIT_MESSAGE" value="FileStreamT class w. comm" />
+    <MESSAGE value="Create dir class" />
+    <option name="LAST_COMMIT_MESSAGE" value="Create dir class" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1067,13 +1080,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Potenstabell/src/Potenstabelltest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Veksleautomat/src/Veksleautomat.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1291,10 +1297,10 @@
         <state relative-caret-position="211">
           <caret line="19" column="39" lean-forward="true" selection-start-line="19" selection-start-column="39" selection-end-line="19" selection-end-column="39" />
           <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <element signature="imports" expanded="true" />
-            <element signature="e#1213#1214#0" expanded="true" />
-            <element signature="e#1267#1268#0" expanded="true" />
+            <element signature="n#!!doc" expanded="false" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#1213#1214#0" expanded="false" />
+            <element signature="e#1267#1268#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1304,7 +1310,7 @@
         <state relative-caret-position="362">
           <caret line="32" column="41" lean-forward="false" selection-start-line="32" selection-start-column="41" selection-end-line="32" selection-end-column="41" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1373,6 +1379,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" column="67" lean-forward="false" selection-start-line="7" selection-start-column="67" selection-end-line="7" selection-end-column="67" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Files/src/ReadDir.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="26" lean-forward="false" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
