@@ -56,7 +56,11 @@ public class CPSTest extends JFrame{
 
         @Override
         public void actionPerformed(ActionEvent e) {
-            if(e.getSource() == tittel) setInnCoffe();
+            if(e.getSource() == tittel){
+                setInnCoffe();
+
+                SaveToFile.addToFile(tittel.getText());
+            }
             else if (e.getSource() == skrivUt) skrivCoffeListe();
         }
     }
