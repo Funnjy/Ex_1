@@ -5,6 +5,9 @@ import java.io.IOException;
 /**
  * Created by Anton Ilchenko on 11.06.2017.
  */
+
+//Read file byte by byte
+
 public class ShowFile {
 
     public static void main(String args[]) throws IOException{
