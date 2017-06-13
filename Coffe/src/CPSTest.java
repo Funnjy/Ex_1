@@ -45,11 +45,12 @@ public class CPSTest extends JFrame{
 
     public void writeDataToFile(String fileName){
 
-        try(DataOutputStream out = new DataOutputStream(new FileOutputStream(fileName))){
-            String input = tittel.getText();
+        try(PrintWriter out = new PrintWriter(new FileWriter(fileName))){
+            //String input = tittel.getText();
 
-            out.writeUTF(input);
+            out.print("sdasd");
             //tittel.write(out);
+            out.close();
         }
         catch(IOException e){
             System.out.println("Problem with file.\n");
