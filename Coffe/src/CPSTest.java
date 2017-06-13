@@ -5,6 +5,7 @@ import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.io.*;
 
 public class CPSTest extends JFrame{
     public CoffeList coffeList;
@@ -42,6 +43,37 @@ public class CPSTest extends JFrame{
         setVisible(true);
     }
 
+    public void writeDataToFile(String fileName){
+
+        try(DataOutputStream out = new DataOutputStream(new FileOutputStream(fileName))){
+            String input = tittel.getText();
+
+            out.writeUTF(input);
+            //tittel.write(out);
+        }
+        catch(IOException e){
+            System.out.println("Problem with file.\n");
+        }
+    }
+
+    public void showDataFromFile(String fileName){
+        String coffe;
+        try(DataInputStream in = new DataInputStream(new FileInputStream(fileName))){
+                coffe = in.readUTF();
+                utskrift.append("Registrert i file" + coffe);
+        }
+        catch (EOFException e){
+            //utskrift.append("ss");
+        }
+        catch (FileNotFoundException fnfe){
+            System.out.print("File not found");
+            return;
+        }
+        catch (IOException e){
+            System.out.println("Was not able to read from file");
+        }
+    }
+
     public void setInnCoffe(){
         Coffe ny = new Coffe(tittel.getText());
         coffeList.settInn(ny);
@@ -59,7 +91,8 @@ public class CPSTest extends JFrame{
             if(e.getSource() == tittel){
                 setInnCoffe();
 
-                SaveToFile.addToFile(tittel.getText());
+                writeDataToFile("testfile.dta");
+                showDataFromFile("testfile.dta");
             }
             else if (e.getSource() == skrivUt) skrivCoffeListe();
         }
