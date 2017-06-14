@@ -19,12 +19,25 @@ import java.io.IOException;
 * tegn er av datatype char. (Linjeskifttegn blir da også regnet som blanke tegn, men det godtas i denne oppgaven.)*/
 
 public class Ex1 extends Component {
+    public Ex1() {    }
 
-    public Ex1(){
+    public String choseFile(){
+
+        String fileName;
         JFileChooser filChoser = new JFileChooser();
         filChoser.setCurrentDirectory(new File("."));
         int output = filChoser.showOpenDialog(this);
+
+        if(output == JFileChooser.APPROVE_OPTION){
+
+            File f = filChoser.getSelectedFile();
+            fileName = f.getName();
+            return fileName;
+
+        }else
+            return "ERROR!";
     }
+    public String file = choseFile();
 
     public static void countBlankSymb(String fileName) throws IOException{
         FileReader inText;
@@ -50,8 +63,6 @@ public class Ex1 extends Component {
     }
 
     public static void main(String args[]) throws IOException {
-        //Ex1 ex1 = new Ex1();
-        countBlankSymb("testCoffeFile.txt");
 
     }
 }
