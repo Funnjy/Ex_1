@@ -14,9 +14,7 @@ import java.io.IOException;
 * i en tekstfil. Fil skal velges ved hjelp av en JFileChooser. De opptelte antall tegn og blanke tegn skal skrives
 * ut i hvert sitt tekstfelt. Bruk et FileReader-objekt ved fil-lesing. Programmet skal behandle eventuelle
 * unntakssituasjoner som kan tenkes å oppstå.
-
-* For å sjekke om et tegn er et blankt tegn, kan du bruke metoden Character.isSpaceChar( tegn ), der parameteren
-* tegn er av datatype char. (Linjeskifttegn blir da også regnet som blanke tegn, men det godtas i denne oppgaven.)*/
+*/
 
 public class Ex1 extends JFrame {
 
