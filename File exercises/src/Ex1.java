@@ -57,14 +57,14 @@ public class Ex1 extends JFrame {
             return "ERROR!";
     }
 
-    public void countBlankSymb(/*String fileName*/) throws IOException{
+    public void countBlankSymb(String fileName) throws IOException{
         FileReader inText;
 
         try{
-            inText = new FileReader("testCoffeFile.txt");
+            inText = new FileReader(fileName);
         }
         catch (FileNotFoundException e){
-            System.out.print("File not found!" + "testCoffeFile.txt");
+            System.out.print("File not found!" + fileName);
             return;
         }
 

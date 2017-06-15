@@ -11,6 +11,6 @@ public class Ex1Driver {
         Ex1 e = new Ex1();
         e.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
-        e.countBlankSymb();
+        e.countBlankSymb( e.choseFile());
     }
 }
