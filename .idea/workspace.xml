@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c44d938e-16ba-4910-85ce-5403c72915a0" name="Default" comment="Ex1Driver and simple interface.">
+    <list default="true" id="c44d938e-16ba-4910-85ce-5403c72915a0" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/File exercises/src/Ex1.java" afterPath="$PROJECT_DIR$/File exercises/src/Ex1.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/File exercises/src/Ex1Driver.java" afterPath="$PROJECT_DIR$/File exercises/src/Ex1Driver.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -54,8 +52,8 @@
       <file leaf-file-name="Ex1.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/File exercises/src/Ex1.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="449">
-              <caret line="66" column="57" lean-forward="false" selection-start-line="66" selection-start-column="57" selection-end-line="66" selection-end-column="57" />
+            <state relative-caret-position="211">
+              <caret line="52" column="35" lean-forward="true" selection-start-line="52" selection-start-column="35" selection-end-line="52" selection-end-column="35" />
               <folding />
             </state>
           </provider>
@@ -587,13 +585,6 @@
       <option name="presentableId" value="Default" />
       <updated>1490897065405</updated>
     </task>
-    <task id="LOCAL-00014" summary="Potenstabell update">
-      <created>1491257072044</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1491257072044</updated>
-    </task>
     <task id="LOCAL-00015" summary="Potenstabell update">
       <created>1491678648658</created>
       <option name="number" value="00015" />
@@ -930,7 +921,14 @@
       <option name="project" value="LOCAL" />
       <updated>1497533324837</updated>
     </task>
-    <option name="localTasksCounter" value="63" />
+    <task id="LOCAL-00063" summary="Implement choseFile() and countBlankSymb() methods">
+      <created>1497533469853</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1497533469853</updated>
+    </task>
+    <option name="localTasksCounter" value="64" />
     <servers />
   </component>
   <component name="TodoView" selected-index="2">
@@ -1016,7 +1014,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Added functions skuddår() og månedsdager()" />
     <MESSAGE value="Added functions okDato(), and working on månedsnavn()" />
     <MESSAGE value="Cleaning code" />
     <MESSAGE value="Update" />
@@ -1041,7 +1038,8 @@
     <MESSAGE value="Files, ex1 start" />
     <MESSAGE value="CountBlankSymb(String fileName) finished" />
     <MESSAGE value="Ex1Driver and simple interface." />
-    <option name="LAST_COMMIT_MESSAGE" value="Ex1Driver and simple interface." />
+    <MESSAGE value="Implement choseFile() and countBlankSymb() methods" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implement choseFile() and countBlankSymb() methods" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1334,8 +1332,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/File exercises/src/Ex1.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="449">
-          <caret line="66" column="57" lean-forward="false" selection-start-line="66" selection-start-column="57" selection-end-line="66" selection-end-column="57" />
+        <state relative-caret-position="211">
+          <caret line="52" column="35" lean-forward="true" selection-start-line="52" selection-start-column="35" selection-end-line="52" selection-end-column="35" />
           <folding />
         </state>
       </provider>
