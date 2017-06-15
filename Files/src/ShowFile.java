@@ -6,7 +6,7 @@ import java.io.IOException;
  * Created by Anton Ilchenko on 11.06.2017.
  */
 
-//Read file byte by byte
+//Read file sign by sign
 
 public class ShowFile {
 

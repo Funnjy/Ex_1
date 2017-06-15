@@ -45,11 +45,11 @@ public class CPSTest extends JFrame{
 
     public void writeDataToFile(String fileName){
 
-        try(PrintWriter out = new PrintWriter(new FileWriter(fileName))){
+        try(DataOutputStream out = new DataOutputStream(new FileOutputStream(fileName))){
             //String input = tittel.getText();
 
-            out.print("sdasd");
-            //tittel.write(out);
+            //out.writeUTF("sdasd"); //Dette her fungerer helt OK.
+            out.writeUTF(tittel.getText()); //Fungerer ikke, men begge to er String da.
             out.close();
         }
         catch(IOException e){

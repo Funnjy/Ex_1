@@ -18,8 +18,27 @@ import java.io.IOException;
 * For å sjekke om et tegn er et blankt tegn, kan du bruke metoden Character.isSpaceChar( tegn ), der parameteren
 * tegn er av datatype char. (Linjeskifttegn blir da også regnet som blanke tegn, men det godtas i denne oppgaven.)*/
 
-public class Ex1 extends Component {
-    public Ex1() {    }
+public class Ex1 extends JFrame {
+
+    private JTextArea blankOutput, signOutput;
+
+    public Ex1() {
+        super("Calculate blank fields and symbols");
+        Container c = getContentPane();
+        c.setLayout(new FlowLayout());
+
+        blankOutput = new JTextArea(10,10);
+        signOutput = new JTextArea(10,10);
+
+        blankOutput.setEditable(false);
+        signOutput.setEditable(false);
+
+        c.add(blankOutput);
+        c.add(signOutput);
+
+        setSize(350,350);
+        setVisible(true);
+    }
 
     public String choseFile(){
 
@@ -37,16 +56,15 @@ public class Ex1 extends Component {
         }else
             return "ERROR!";
     }
-    public String file = choseFile();
 
-    public static void countBlankSymb(String fileName) throws IOException{
+    public void countBlankSymb(/*String fileName*/) throws IOException{
         FileReader inText;
 
         try{
-            inText = new FileReader(fileName);
+            inText = new FileReader("testCoffeFile.txt");
         }
         catch (FileNotFoundException e){
-            System.out.print("File not found!" + fileName);
+            System.out.print("File not found!" + "testCoffeFile.txt");
             return;
         }
 
@@ -59,10 +77,7 @@ public class Ex1 extends Component {
                 blank++;
             }else if(i != -1) symb ++;
         }while (i != -1);
-        System.out.print("Blank = : " + blank + "\nSymbols = : " + symb);
-    }
-
-    public static void main(String args[]) throws IOException {
-
+        blankOutput.append("Total spaces: " + blank);
+        signOutput.append("Total symbols: " + symb);
     }
 }
