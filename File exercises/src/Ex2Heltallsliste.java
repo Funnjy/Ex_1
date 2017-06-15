@@ -23,6 +23,13 @@ public class Ex2Heltallsliste {
     }
 
     public boolean remove(int n){
+
+        if(first == null) return false;
+        if(first.getInfo() == n){
+            first = first.neste;
+            return true;
+        }
+
         Ex2Node remove = find(n);
 
     }
