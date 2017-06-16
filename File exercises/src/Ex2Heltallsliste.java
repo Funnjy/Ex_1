@@ -30,6 +30,7 @@ public class Ex2Heltallsliste {
             return true;
         }
 
+
         Ex2Node remove = find(n);
 
     }
