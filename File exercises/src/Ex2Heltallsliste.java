@@ -25,13 +25,24 @@ public class Ex2Heltallsliste {
     public boolean remove(int n){
 
         if(first == null) return false;
+
         if(first.getInfo() == n){
+
             first = first.neste;
             return true;
         }
 
+        Ex2Node runner = first;
 
-        Ex2Node remove = find(n);
+        while (runner.neste != null){
 
+            if(runner.neste.getInfo() == n){
+                runner.neste = runner.neste.neste;
+                return true;
+            }
+            else
+                runner = runner.neste;
+        }
+        return false;
     }
 }
