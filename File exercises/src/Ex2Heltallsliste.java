@@ -45,4 +45,8 @@ public class Ex2Heltallsliste {
         }
         return false;
     }
+
+    public void setInFirst(int n){
+
+    }
 }
