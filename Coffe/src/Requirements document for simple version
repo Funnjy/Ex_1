@@ -1,1 +1,9 @@
 *Requirements adas
+This application should enable the user to order coffee from a mobile phone in one of the coffeeshops. 
+The order must be made with the indication of the coffeeshop, the time interval.
+The user should be able to register and bind a bank card for payment. Otherwise, payment must be made when coffe is recieved.
+
+The user interface consists of:
+- Window with a list of available coffeeshops
+- List of available items
+
