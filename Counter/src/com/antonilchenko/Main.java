@@ -24,14 +24,14 @@ class CountDown {
             case "Thread 1":
                 color = ThreadsColors.ANSI_CYAN;
                 break;
-            case "Thread 2"
+            case "Thread 2":
                 color = ThreadsColors.ANSI_PURPLE;
                 break;
             default:
                 color = ThreadsColors.ANSI_GREEN;
         }
 
-        for (int i = 10; i < 0; i--) {
+        for (int i = 10; i > 0; i--) {
             System.out.println(color + Thread.currentThread().getName() + ": i =" + i);
         }
     }
